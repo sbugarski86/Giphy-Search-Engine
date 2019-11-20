@@ -35,7 +35,7 @@
 	<li>Tested the responsives of code for diferent sizes devices using developer tools in console.</li>
 	<li>Pushed the commits through the developing process randomly to  GitHub.</li>
 	</ol>
-<ol><h3>Tehnologies used for this project</h3>
+<ol><h3>Tehnologies used for this project:</h3>
 	<li>HTML,</li>
 	<li>CSS, Sass, Flexbox,</li>
 	<li>Git,</li>

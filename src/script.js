@@ -16,7 +16,8 @@ $(function () {
               .appendTo("#giphy");
           }
         })
-        .fail(function () {
+        .fail(function
+          () {
           // failure
           alert("Ajax call failed.");
         });
