@@ -7,8 +7,9 @@
 <h2>Project overview:</h2>
 <p> The goal of this project is to build a website with a search engine. Where according to the users inputs for search criterium and number of results. The gifs will be get from GIPHY APY site and displayed on the web page.</p>
 <ol><h2>Instalation:</h2>
-	<li>In your terminal find the project folder and write npm install.</li>
-	<li>After that write in the terminal npm run start.</li>
+	<li>In your terminal find the project folder and write <em>npm install</em>.</li>
+	<li>After that write <em>npm install webpack webpack-cli</em>.</li>
+	<li>After that write <em>npm run start</em> will lunch the website locally.</li>
 	</ol>
 
 <h2>Requirements:</h2>
