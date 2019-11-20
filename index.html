@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <title>Giphy Search Engine</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="section-header">
+
+      <div class="section-header__items">
+        <div class="section-header__giphyApi">
+          <p class="section-header__item"><a href="https://giphy.com/" target="_blank">GIPHY Search API</a></p>
+        </div>
+        <ul class="section-header__links">
+          <li class="section-header__item"><a href="https://gitHub.com/sbugarski86" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+          <li class="section-header__item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          <li class="section-header__item"><a href="https://www.instagram.com/bugarskistevan" target="_blank"><i
+                class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+
+    </header>
+    <section class="section-toggle">
+      <div class="section-toggle__icons">
+        <i class="fa fa-bars"></i>
+        <i class="fa fa-arrow-up"></i>
+      </div>
+      <div class="section-toggle__links">
+        <p><a href="https://giphy.com/" target="_blank">GIPHY Search API</a></p>
+        <p><a href="https://gitHub.com/sbugarski86" target="_blank">GitHub</a></p>
+        <p><a href="#">Linkedin</a></p>
+        <p><a href="https://www.instagram.com/bugarskistevan" target="_blank">Instagram</a></p>
+      </div>
+    </section>
+    <section class="section-search">
+      <h1 class="section-search__heading">Welcome to GIPHY search</h1>
+      <form action="#" class="section-search__inputs">
+        <div><input type=" text" id="value" class="section-search__input" placeholder="GIF Search:" autocomplete="off">
+        </div>
+        <div><input type="text" id="number-value" class="section-search__input" placeholder="No. of GIFs:"
+            autocomplete="off"></div>
+        <div>
+          <button type="button" class="button-primary">Search</button>
+        </div>
+      </form>
+    </section>
+    <section id="giphy" class="section-giphy">
+    </section>
+    <footer class="section-footer">
+      <p>Copyright &copy; 2019 by Stevan Bugarski. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="dist/bundle.js"></script>
+</body>
+
+</html>
