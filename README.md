@@ -52,5 +52,5 @@
 <img src="images/mobile_view_no_results.png" height="450px">
 <h4>Mobile view:</h4>
 <img src="images/mobile_view.png" height="450px">
-<h3>Future improvements</h3>
+<h3>Future improvements:</h3>
 <p> In the future my plan is to implement Flexbox grid system for easier aligning and sizing objects on the web page and easier maintaining the web site.</p>

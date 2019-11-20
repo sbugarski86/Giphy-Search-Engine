@@ -1,0 +1,7 @@
+# Ignore node_modules
+dist/
+node_modules/
+.vs/
+.vscode/
+css/
+

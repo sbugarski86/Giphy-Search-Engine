@@ -1,0 +1,66 @@
+.button-primary {
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 1rem 3rem;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 2.3rem;
+  }
+  &:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(209, 206, 206, 0.9);
+
+    @media only screen and (max-width: $bp-small),
+      only screen and (hover: none) {
+      transform: none;
+      box-shadow: none;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 1rem 0.8rem rgba(209, 206, 206, 0.9);
+    @media only screen and (max-width: $bp-small),
+      only screen and (hover: none) {
+      transform: none;
+      box-shadow: none;
+    }
+  }
+}
+
+a:link,
+a:visited {
+  height: 5rem;
+  font-weight: 400;
+  margin-left: 2rem;
+  color: white;
+  text-decoration: none;
+  border-bottom: none;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:hover {
+    transform: translateY(-0.3rem);
+    
+    @media only screen and (max-width: $bp-small),
+      only screen and (hover: none) {
+      transform: none;
+    }
+  }
+  &:active {
+    color: rgba(209, 206, 206, 0.9);
+  }
+}

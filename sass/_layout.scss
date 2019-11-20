@@ -1,0 +1,191 @@
+.container {
+  height: 100vh;
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgba($color-primary-dark, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  @media only screen and (max-width: $bp-small) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.section-header {
+  min-width: 100%;
+  min-height: 12rem;
+  margin-top: -0.8rem;
+  font-size: 2rem;
+  background-color: $color-primary-dark;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  @media only screen and (max-width: $bp-small) {
+    display: none;
+  }
+  &__items {
+    @media only screen and (max-width: $bp-small) {
+      display: none;
+    }
+  }
+  &__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__links {
+    height: 10rem;
+    width: 20%;
+    list-style: none;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .fab {
+      font-size: 3rem;
+    }
+    .fa-github:hover {
+      color: #6e5494;
+      transform: translateY(-0.3rem);
+
+      @media only screen and (max-width: $bp-small),
+        only screen and (hover: none) {
+        color: white;
+      }
+    }
+    .fa-linkedin:hover {
+      color: green;
+
+      @media only screen and (max-width: $bp-small),
+        only screen and (hover: none) {
+        color: white;
+      }
+    }
+    .fa-instagram:hover {
+      color: #bc2a8d;
+
+      @media only screen and (max-width: $bp-small),
+        only screen and (hover: none) {
+        color: white;
+      }
+    }
+  }
+  &__item {
+    margin-right: 1rem;
+  }
+  &__giphyApi {
+    margin-left: 1rem;
+  }
+}
+.section-search {
+  width: 50%;
+  text-align: center;
+
+  @media only screen and (max-width: $bp-small) {
+    flex-grow: 1;
+  }
+  &__heading {
+    font-size: 5rem;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 3rem;
+    }
+  }
+  &__inputs {
+    margin-top: 4rem;
+  }
+  &__input {
+    background-color: rgba(243, 242, 242, 0.9);
+    color: $color-primary-dark;
+    text-transform: uppercase;
+    font-family: inherit;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 0.7rem;
+    text-align: center;
+
+    @media only screen and (max-width: $bp-small) {
+      padding: 0.3rem;
+      font-size: 1.2rem;
+      margin-bottom: 0.2rem;
+    }
+  }
+  &__input:focus {
+    outline: none;
+  }
+  .input-value {
+    margin-top: 5rem;
+  }
+}
+.section-giphy {
+  color: $color-white;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  &__img {
+    width: 25%;
+    max-height: 30rem;
+    flex-grow: 1;
+
+    @media only screen and (max-width: $bp-medium) {
+      width: 50%;
+    }
+    @media only screen and (max-width: $bp-small) {
+      width: 100%;
+    }
+  }
+}
+
+.section-footer {
+  min-width: 100%;
+  min-height: 12rem;
+  background-color: $color-primary-dark;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-toggle {
+  display: none;
+  width: 100%;
+  height: 20rem;
+
+  @media only screen and (max-width: $bp-small) {
+    display: block;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+  }
+  &__icons {
+    font-size: 4.5rem;
+    padding: 2rem 4.5rem;
+    color: rgba($color-grey-light, 0.7);
+    cursor: pointer;
+  }
+  &__links {
+    display: none;
+    background-color: rgba(79, 80, 79, 0.8);
+    margin-left: 2rem;
+    width: 90%;
+    font-size: 2rem;
+    color: rgba($color-grey-light, 0.7);
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.6rem;
+    }
+  }
+}

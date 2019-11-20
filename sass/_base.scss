@@ -1,0 +1,33 @@
+$color-primary-dark: black;
+$color-white: white;
+$color-grey-light: #f0eeee;
+
+$bp-largest: 75em; //1200 / 16px;
+$bp-large: 68.75em; //1100 / 16px;
+$bp-medium: 56.25em; //900 / 16px;
+$bp-small: 37.5em; //600 / 16px;
+$bp-smallest: 31.25em; //500 / 16px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+}
+body {
+  font-family: "ZCOOL XiaoWei", serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $color-white;
+  background-color: rgba($color-primary-dark, 0.9);
+  height: 100vh;
+  width: 100vw;
+}
