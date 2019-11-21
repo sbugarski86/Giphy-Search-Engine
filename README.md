@@ -7,7 +7,7 @@
 <h2>Project overview:</h2>
 <p> The goal of this project is to build a website with a search engine. Results of search are based on user input. The gifs are acquired from GIPHY APY site and displayed on the web page.</p>
 <ol><h2>Installation:</h2>
-  <li>Install Node.js and Npm on your computer if you don't have it install.</li>
+  <li>Install Node.js and Npm on your computer if you don't have it installed.</li>
 	<li>In your terminal find the project folder and write: <em>npm install</em>.</li>
 	<li>Then write: <em>npm install webpack webpack-cli</em>.</li>
 	<li>When the webpack is installed write: <em>npm run webpack</em>.</li>
