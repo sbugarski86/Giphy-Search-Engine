@@ -5,17 +5,19 @@
 <p><b>Program: Full Stack Web Development Bootcamp</b><p>
 <p><b>Project: Website With a Search Engine</b><p>
 <h2>Project overview:</h2>
-<p> The goal of this project is to build a website with a search engine. Where according to the users inputs for search criterium and number of results. The gifs will be get from GIPHY APY site and displayed on the web page.</p>
-<ol><h2>Instalation:</h2>
-	<li>In your terminal find the project folder and write <em>npm install</em>.</li>
-	<li>Then <em>npm install webpack webpack-cli</em>.</li>
-	<li>When it's installed you have to <em>npm run webpack</em></li>
-	<li>After that write <em>npm run start</em> will lunch the website locally.</li>
+<p> The goal of this project is to build a website with a search engine. Results of search are based on user input. The gifs are acquired from GIPHY APY site and displayed on the web page.</p>
+<ol><h2>Installation:</h2>
+  <li>Install Node.js and Npm on your computer if you don't have it install.</li>
+	<li>In your terminal find the project folder and write: <em>npm install</em>.</li>
+	<li>Then write: <em>npm install webpack webpack-cli</em>.</li>
+	<li>When the webpack is installed write: <em>npm run webpack</em>.</li>
+	<li>After that write: <em>npm run start</em>, and that will lunch the website locally.</li>
 	</ol>
 
 <h2>Requirements:</h2>
 <ol><h3>User Stories:<h3>
-	<li><em>As an android phone user I want to web site be accessible from diferent devices so that I can use it from my selphone.</em></li>
+	<li><em>As an android phone user I want the website to 
+	be accessible from different devices so that I can use it from my cellphone.</em></li>
 	<li><em>As a gif user I want to get gifs according to search criterium so that I can post them on social media.</em></li>
 	<h2>Wiraframes:</h2>
 	<h3>Desktop view:</h3>
@@ -41,7 +43,7 @@
 	<li>CSS, Sass, Flexbox,</li>
 	<li>Git,</li>
 	<li>Npm,</li>
-	<li>JavaScript, Jquery.</li>
+	<li>JavaScript, JQuery.</li>
 	</ol>
 <h3>Results:</h3>
 <h4>Desktop view no results:</h4>
@@ -55,4 +57,4 @@
 <h4>Mobile view:</h4>
 <img src="images/mobile_view.png" height="450px">
 <h3>Future improvements:</h3>
-<p> In the future my plan is to implement Flexbox grid system for easier aligning and sizing objects on the web page and easier maintaining the web site.</p>
+<p> In the future my plan is to implement Flexbox grid system for easier aligning and sizing objects on the web page and easier maintaining the web site. I plan to improve my knowledge in Git, Node.js and Npm, and Webpacks as well. The next project I'll do using React because that is the framework which I'm studyng for the moment, and I'm looking forward to trying it out. </p>
