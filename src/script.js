@@ -1,4 +1,3 @@
-
 $(function () {
   $('button')
     .first()
@@ -9,9 +8,10 @@ $(function () {
       var $numValue = parseInt($('#number-value').val());
 
       if ($value !== '') {
-        console.log('Stevan');
+        $('.section-search__alert1').hide(500);
+        
         if (isNaN($numValue) || $numValue < 1) {
-          alert('Please enter a number larger then 0');
+          $('.section-search__alert2').delay(500).show(500)
         } else {
           var giphySearch = $url + 'q=' + $value + '&limit=' + $numValue + $key;
           $.getJSON(giphySearch)
@@ -21,18 +21,19 @@ $(function () {
                   .attr('src', result.data[i].images.downsized.url)
                   .appendTo('#giphy');
               }
+
             })
             .fail(function () {
               // failure
               alert('Ajax call failed.');
             });
+            $('.section-search__alert2').hide(500);
         }
       } else {
-        alert('please enter something');
+        $('.section-search__alert1').show(500)
       }
     });
   $('button')
-    .last()
     .click(function () {
       $('#giphy').empty();
     });
