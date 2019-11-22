@@ -1,6 +1,5 @@
 <h1>Website With a Search Engine</h1>
 <p><b>Name: Stevan Bugarski</b><p>
-<p><b>Email: bugarski.stevan@gmail.com</b><p>
 <p><b>Organization: Wagner college</b><p>
 <p><b>Program: Full Stack Web Development Bootcamp</b><p>
 <p><b>Project: Website With a Search Engine</b><p>
@@ -16,8 +15,8 @@
 
 <h2>Requirements:</h2>
 <ol><h3>User Stories:<h3>
-	<li><em>As an android phone user I want the website to 
-	be accessible from different devices so that I can use it from my cellphone.</em></li>
+	<li><em>As an smartphone user I want the website to 
+	be responsive  so that I can use it from my cellphone.</em></li>
 	<li><em>As a gif user I want to get gifs according to search criterium so that I can post them on social media.</em></li>
 	<h2>Wiraframes:</h2>
 	<h3>Desktop view:</h3>
