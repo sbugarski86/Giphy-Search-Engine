@@ -36,7 +36,7 @@
 	<li>Created responsive site using @media queries and Flexbox.</li>
 	<li>Tested the responsives of code for diferent sizes devices using developer tools in console.</li>
 	<li>Pushed the commits through the developing process randomly to  GitHub.</li>
-	<li>Deployed application on Netlify <a href='https://still-sea-02220.herokuapp.com/'>https://still-sea-02220.herokuapp.com/</a></li>
+	<li>Deployed application on Netlify <a href='https://jovial-nobel-994ed8.netlify.com '>https://jovial-nobel-994ed8.netlify.com </a></li>
 	</ol>
 <ol><h3>Tehnologies used for this project:</h3>
 	<li>HTML,</li>
