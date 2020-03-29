@@ -38,7 +38,7 @@
 	<li>Pushed the commits through the developing process randomly to  GitHub.</li>
 	<li>Deployed application on Netlify <a href='https://jovial-nobel-994ed8.netlify.com '>https://jovial-nobel-994ed8.netlify.com </a></li>
 	</ol>
-<ol><h3>Tehnologies used for this project:</h3>
+<ol><h3>Technologies used for this project:</h3>
 	<li>HTML,</li>
 	<li>CSS, Sass, Flexbox,</li>
 	<li>Git,</li>
