@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "webpack": "^4.41.2"
   }
 }
